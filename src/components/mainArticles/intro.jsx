@@ -4,7 +4,7 @@ export default function intro() {
   return (
     <article>
       <p>
-        <b>At nuroX</b>, we stand at the vanguard of AI and technology,
+        <strong>At nuroX</strong>, we stand at the vanguard of AI and technology,
         revolutionizing data consciousness, asset, and information lifecycle
         management for enterprises, large organizations, and governments. As a
         premier entity, our commitment transcends generic analytics; we delve

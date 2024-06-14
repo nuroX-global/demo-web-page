@@ -4,7 +4,7 @@ import culture from '../../components/brandvalues';
 import innovation from '../../components/brandvalues';
 import quality from '../../components/brandvalues';
 
-export default function brandvalues() {
+export default function brandValues() {
   return (
     <article>
         <h2>Brand Values</h2>
