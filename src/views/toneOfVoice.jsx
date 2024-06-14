@@ -6,12 +6,12 @@ import Knowledgeable from '../components/toneOfVoice/Knowledgeable';
 
 export default function ToneOfVoice() {
   return (
-    <article>
+    <section>
         <h2>Tone Of Voice</h2>
         <Confident />
         <Inspirational />
         <Approachable />
         <Knowledgeable />
-    </article>
+    </section>
   )
 }

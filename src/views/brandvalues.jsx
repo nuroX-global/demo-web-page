@@ -6,12 +6,12 @@ import Quality from '../components/brandValues/Quality';
 
 export default function BrandValues() {
   return (
-    <article>
+    <section>
         <h2>Brand Values</h2>
         <Environment />
         <Culture />
         <Innovation />
         <Quality />
-    </article>
+    </section>
   )
 }

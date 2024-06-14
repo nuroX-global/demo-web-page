@@ -3,7 +3,7 @@ import React from "react";
 export default function Environment() {
   return (
     <p>
-      <h3>Environmental Consciousness</h3>
+      <span>Environmental Consciousness</span>
       <span>
         We prioritize sustainability and eco-friendly practices, having an
         understanding of the environment, the impacts of human behaviors on it,

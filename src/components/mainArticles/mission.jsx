@@ -3,7 +3,7 @@ import React from "react";
 export default function Mission() {
   return (
     <article>
-      <h2>Mission Statement:</h2>
+      <span>Mission Statement:</span>
       <p>
         At nuroX, our mission is to redefine the standards of data consciousness
         and asset information management through the power of cutting-edge AI

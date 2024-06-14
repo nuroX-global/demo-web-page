@@ -4,10 +4,10 @@ import Vision from "../components/mainArticles/Vision";
 
 export default function AboutUs() {
   return (
-    <div>
+    <section>
       <h1>Who are we?</h1>
       <Mission />
       <Vision />
-    </div>
+    </section>
   );
 }
