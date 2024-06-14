@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function inspirational() {
+export default function Inspirational() {
   return (
     <p>
       <h3>Inspirational</h3>

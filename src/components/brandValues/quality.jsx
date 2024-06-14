@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function quality() {
+export default function Quality() {
   return (
     <p>
       <h3>Quality and Craftsmanship</h3>

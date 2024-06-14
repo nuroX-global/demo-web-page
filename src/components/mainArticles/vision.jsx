@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function vision() {
+export default function Vision() {
   return (
     <article>
       <h2>Vision:</h2>

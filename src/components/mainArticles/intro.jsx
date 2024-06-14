@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function intro() {
+export default function Intro() {
   return (
     <article>
       <p>

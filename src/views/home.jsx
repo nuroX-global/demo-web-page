@@ -1,11 +1,12 @@
 import React from 'react'
+import BrandValues from './brandvalues'
+import ToneOfVoice from './toneOfVoice'
 
-
-export default function home() {
+export default function Home() {
   return (
     <div>
-        <brandValues />
-        <toneOfVoice />
+        <BrandValues />
+        <ToneOfVoice />
     </div>
   )
 }

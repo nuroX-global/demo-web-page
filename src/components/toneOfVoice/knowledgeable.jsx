@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function knowledgeable() {
+export default function Knowledgeable() {
   return (
     <p>
       <h3>Knowledgeable</h3>

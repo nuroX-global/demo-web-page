@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function innovation() {
+export default function Innovation() {
   return (
     <p>
       <h3>Innovation & Creativity </h3>

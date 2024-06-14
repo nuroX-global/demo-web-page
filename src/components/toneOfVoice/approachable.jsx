@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function approachable() {
+export default function Approachable() {
   return (
     <p>
       <h3>Approachable</h3>

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function environment() {
+export default function Environment() {
   return (
     <p>
       <h3>Environmental Consciousness</h3>

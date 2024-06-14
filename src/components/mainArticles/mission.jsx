@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function mission() {
+export default function Mission() {
   return (
     <article>
       <h2>Mission Statement:</h2>

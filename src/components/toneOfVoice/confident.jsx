@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function confident() {
+export default function Confident() {
   return (
     <p>
       <h3>Confident</h3>

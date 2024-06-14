@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function culture() {
+export default function Culture() {
   return (
     <p>
       <h3>Cultural Integrity </h3>
