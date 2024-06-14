@@ -1,6 +1,6 @@
 import React from "react";
-import mission from "../components/mainArticles/mission";
-import vision from "../components/mainArticles/vision";
+import Mission from "../components/mainArticles/Mission";
+import Vision from "../components/mainArticles/Vision";
 
 export default function AboutUs() {
   return (

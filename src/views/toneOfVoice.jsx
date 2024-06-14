@@ -1,8 +1,8 @@
 import React from 'react'
-import confident from '../../components/toneOfVoice';
-import inspirational from '../../components/toneOfVoice';
-import approachable from '../../components/toneOfVoice';
-import knowledgeable from '../../components/toneOfVoice';
+import Confident from '../components/toneOfVoice/Confident';
+import Inspirational from '../components/toneOfVoice/Inspirational';
+import Approachable from '../components/toneOfVoice/Approachable';
+import Knowledgeable from '../components/toneOfVoice/Knowledgeable';
 
 export default function ToneOfVoice() {
   return (

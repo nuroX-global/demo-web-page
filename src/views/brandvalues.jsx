@@ -1,8 +1,8 @@
 import React from 'react'
-import environment from '../../components/brandvalues';
-import culture from '../../components/brandvalues';
-import innovation from '../../components/brandvalues';
-import quality from '../../components/brandvalues';
+import Environment from '../components/brandValues/Environment';
+import Culture from '../components/brandValues/Culture';
+import Innovation from '../components/brandValues/Innovation';
+import Quality from '../components/brandValues/Quality';
 
 export default function BrandValues() {
   return (
