@@ -4,12 +4,15 @@ import Environment from "../components/brandValues/Environment";
 import Culture from "../components/brandValues/Culture";
 import Innovation from "../components/brandValues/Innovation";
 import Quality from "../components/brandValues/Quality";
+import { Typography } from "@mui/material";
 
 export default function BrandValues() {
   return (
-    <section>
-      <h2>Brand Values</h2>
-      <Grid container rowSpacing={2} direction={"column"}>
+    <Grid container direction="row" spacing={2} justifyContent="center" pt={2}>
+      <Grid item xs={12} md={4}>
+        <Typography variant="h2">Brand Values</Typography>
+      </Grid>
+      <Grid container rowSpacing={2} direction={"column"} xs={12} md={8}>
         <Grid item>
           <Environment />
         </Grid>
@@ -23,6 +26,6 @@ export default function BrandValues() {
           <Quality />
         </Grid>
       </Grid>
-    </section>
+    </Grid>
   );
 }
