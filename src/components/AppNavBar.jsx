@@ -32,7 +32,7 @@ export default function AppNavBar() {
           <Grid
             container
             direction="row"
-            justifyContent="space-between"
+            justifyContent="flex-end"
             alignItems="center"
             spacing={2}
           >
