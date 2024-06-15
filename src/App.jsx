@@ -3,30 +3,25 @@ import Home from "./views/Home";
 import Box from "@mui/material/Box";
 import AboutUs from "./views/AboutUs";
 import AppNavBar from "./components/AppNavBar";
+import { createTheme, ThemeProvider} from '@mui/material/styles';
 
 function App() {
+  const theme = createTheme({
+    typography:{
+      "fontFamily": "nurox",
+      "fontsize": 14
+    }
+  });
   return (
-    <div>
+    <ThemeProvider
+      theme={theme}
+    >
       <AppNavBar />
       <Box m={3} pt={1}>
         <Home />
         <AboutUs />
       </Box>
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-    </div>
+    </ThemeProvider>
   );
 }
 
