@@ -1,18 +1,19 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
+import { Typography } from "@mui/material";
 
 export default function Quality() {
   return (
-    <Grid container spacing={1}>
-      <Grid item md={2}>
-        <span>Quality and Craftsmanship</span>
+    <Grid container spacing={2}>
+      <Grid item md={4}>
+      <Typography variant="h5">Quality and Craftsmanship</Typography>
       </Grid>
-      <Grid item md={10}>
-        <span>
+      <Grid item md={8}>
+        <Typography variant="body">
           Meticulous attention to detail and collaboration with skilled experts
           result in technology that showcase the highest standards of quality
           and craftsmanship.
-        </span>
+        </Typography>
       </Grid>
     </Grid>
   );
