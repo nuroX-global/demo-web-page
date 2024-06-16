@@ -12,7 +12,6 @@ import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import Grid from "@mui/material/Grid";
 import WhiteLogo from "../../assests/images/whiteLogo.png";
-import AboutUs from "../../views/AboutUs";
 
 export default function AppNavBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -76,14 +75,14 @@ export default function AppNavBar() {
                   }}
                 >
                   <MenuItem key="Home" onClick={handleCloseNavMenu}>
-                    <Link to={"Home"}>
-                        <Typography textAlign="center">Home</Typography>
-                    </Link>
+                    <Typography textAlign="center">
+                      <Link to={"/Home"}>Home</Link>
+                    </Typography>
                   </MenuItem>
                   <MenuItem key="About Us" onClick={handleCloseNavMenu}>
-                    <Link to={"AboutUs"}>
-                      <Typography textAlign="center">About Us</Typography>
-                    </Link>
+                    <Typography textAlign="center">
+                      <Link to={"/AboutUs"}>About Us</Link>
+                    </Typography>
                   </MenuItem>
                 </Menu>
               </Box>
@@ -98,24 +97,25 @@ export default function AppNavBar() {
           >
             <Grid item>
               <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-                <Link to={"Home"}>
-                  <Button
-                    key="Home"
-                    onClick={handleCloseNavMenu}
-                    sx={{ my: 2, color: "white", display: "block" }}
-                  >
-                    Home
-                  </Button>
-                </Link>
-                <Link to={"AboutUs"}>
-                  <Button
-                    key="AboutUs"
-                    onClick={handleCloseNavMenu}
-                    sx={{ my: 2, color: "white", display: "block" }}
-                  >
-                    About Us
-                  </Button>
-                </Link>
+                <Button
+                  key="Home"
+                  onClick={handleCloseNavMenu}
+                  sx={{ my: 2, color: "white", display: "block" }}
+                  href="/"
+                >
+                  Home
+                </Button>
+
+                <Button
+                  key="AboutUs"
+                  onClick={handleCloseNavMenu}
+                  sx={{ my: 2, color: "white", display: "block" }}
+                  href="/AboutUs"
+                >
+                  About Us
+                </Button>
+
+                <Button></Button>
               </Box>
             </Grid>
           </Grid>
