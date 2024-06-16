@@ -6,9 +6,18 @@ import Box from "@mui/material/Box";
 
 export default function Welcome() {
   return (
-    <Grid container direction="column" spacing={2} justifyContent="center" alignItems="center">
+    <Grid
+      container
+      direction="column"
+      spacing={2}
+      justifyContent="center"
+      alignItems="center"
+      p={5}
+    >
       <Grid item>
-        <Typography variant="h1" align="center">Welcome To Nurox!</Typography>
+        <Typography variant="h1" align="center">
+          Welcome To NuroX!
+        </Typography>
       </Grid>
       <Grid item>
         <Box component="img" sx={{ height: 512 }} alt="tree" src={whiteTree} />
