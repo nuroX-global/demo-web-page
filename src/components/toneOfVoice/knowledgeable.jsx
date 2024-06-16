@@ -1,18 +1,19 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
+import { Typography } from "@mui/material";
 
 export default function Knowledgeable() {
   return (
-    <Grid container spacing={1}>
-      <Grid item md={2}>
-        <span>Knowledgeable</span>
+    <Grid container spacing={2}>
+      <Grid item md={4}>
+        <Typography variant="h5">Knowledgeable</Typography>
       </Grid>
-      <Grid item md={10}>
-        <span>
+      <Grid item md={8}>
+        <Typography variant="body">
           We convey our expertise and deep understanding of technology
           principles and practices, establishing ourselves as trusted
           authorities in the industry.
-        </span>
+        </Typography>
       </Grid>
     </Grid>
   );

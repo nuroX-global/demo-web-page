@@ -10,7 +10,7 @@ import cyborg from "../assests/images/Cyborg.jpg";
 export default function Home() {
   return (
     <Grid container direction="column" spacing={5}>
-      <Grid item m={2} p={2}>
+      <Grid item>
         <Welcome />
       </Grid>
       <Grid container direction="row" spacing={1} bgcolor="#000" color="#fff" ml={2} p={1}>

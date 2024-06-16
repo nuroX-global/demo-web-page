@@ -17,7 +17,7 @@ function App() {
       theme={theme}
     >
       <AppNavBar />
-      <Box m={3} pt={1}>
+      <Box>
         <Home />
         <AboutUs />
       </Box>

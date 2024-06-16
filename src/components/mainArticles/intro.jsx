@@ -4,7 +4,7 @@ import { Typography } from "@mui/material";
 
 export default function Intro() {
   return (
-    <Stack spacing={2} p={1} m={1}>
+    <Stack spacing={2} pl={2} ml={2}>
       <Typography variant="h4" fontSize={22}>
         At NuroX, we stand at the vanguard of AI and technology, revolutionizing
         data consciousness, asset, and information lifecycle management for
