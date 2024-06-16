@@ -6,7 +6,7 @@ export default function Mission() {
   return (
     <Grid container spacing={2}>
       <Grid item md={3}>
-        <Typography variant="h5">Mission Statement:</Typography>
+        <Typography variant="h5">Mission Statement</Typography>
       </Grid>
       <Grid item md={9}>
         <Typography variant="body1">

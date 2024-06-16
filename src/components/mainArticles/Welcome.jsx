@@ -1,7 +1,7 @@
 import React from "react";
 import { Typography } from "@mui/material";
 import Grid from "@mui/material/Grid";
-import whiteTree from "../../assests/images/tree_white.jpg";
+import blackLogo from "../../assests/images/blackk_logo_x.png";
 import Box from "@mui/material/Box";
 
 export default function Welcome() {
@@ -20,7 +20,7 @@ export default function Welcome() {
         </Typography>
       </Grid>
       <Grid item>
-        <Box component="img" sx={{ height: 512 }} alt="tree" src={whiteTree} />
+        <Box component="img" sx={{ height: 512 }} alt="logo" src={blackLogo} />
       </Grid>
     </Grid>
   );

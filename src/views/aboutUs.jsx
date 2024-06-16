@@ -4,7 +4,7 @@ import Box from "@mui/material/Box";
 import { Typography } from "@mui/material";
 import Mission from "../components/aboutUs/Mission";
 import Vision from "../components/aboutUs/Vision";
-import tree from "../assests/images/tree_black_white.jpg";
+import tree from "../assests/images/tree_white.jpg";
 
 export default function AboutUs() {
   return (

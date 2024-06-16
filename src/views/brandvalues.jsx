@@ -30,7 +30,7 @@ export default function BrandValues() {
         alignItems="center"
       >
         <Grid item>
-          <Typography variant="h2">Brand Values</Typography>
+          <Typography variant="h2">nuroX Values</Typography>
         </Grid>
         <Grid item>
           <Environment />

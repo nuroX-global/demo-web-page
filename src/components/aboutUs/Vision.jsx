@@ -6,7 +6,7 @@ export default function Vision() {
   return (
     <Grid container spacing={2}>
       <Grid item md={3}>
-        <Typography variant="h5">Vision:</Typography>
+        <Typography variant="h5">Vision</Typography>
       </Grid>
       <Grid item md={9}>
         <Typography variant="body">

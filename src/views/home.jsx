@@ -13,12 +13,25 @@ export default function Home() {
       <Grid item>
         <Welcome />
       </Grid>
-      <Grid container direction="row" spacing={1} bgcolor="#000" color="#fff" ml={2} p={1}>
+      <Grid
+        container
+        direction="row"
+        spacing={1}
+        bgcolor="#000"
+        color="#fff"
+        ml={2}
+        p={1}
+      >
         <Grid item xs={12} md={6}>
-          <Intro/>
+          <Intro />
         </Grid>
         <Grid item xs={12} md={6}>
-          <Box component="img" sx={{ width: 1 }} alt="cyborg" src={cyborg} />
+          <Box
+            component="img"
+            sx={{ width: 1 }}
+            alt="logo black"
+            src={cyborg}
+          />
         </Grid>
       </Grid>
       <Grid item>
