@@ -24,7 +24,14 @@ export default function ToneOfVoice() {
       <Grid item xs={12} md={4}>
         <Box component="img" sx={{ width: 1 }} alt="tree" src={blackTree} />
       </Grid>
-      <Grid container rowSpacing={5} direction={"column"} xs={12} md={8} justifyContent="space-between">
+      <Grid
+        container
+        rowSpacing={5}
+        direction={"column"}
+        xs={12}
+        md={8}
+        alignItems="center"
+      >
         <Typography variant="h2">Tone of Voice</Typography>
         <Grid item>
           <Confident />

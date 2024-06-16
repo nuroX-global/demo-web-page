@@ -9,7 +9,7 @@ export default function Environment() {
       <Typography variant="h5">Environmental Consciousness</Typography>
       </Grid>
       <Grid item md={8}>
-        <Typography variant="body">
+        <Typography variant="body1">
           We prioritize sustainability and eco-friendly practices, having an
           understanding of the environment, the impacts of human behaviors on
           it, and the importance of its protection.

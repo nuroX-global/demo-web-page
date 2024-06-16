@@ -1,28 +1,43 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
-// import Box from "@mui/material/Box";
+import Box from "@mui/material/Box";
 import { Typography } from "@mui/material";
 import Mission from "../components/aboutUs/Mission";
 import Vision from "../components/aboutUs/Vision";
+import tree from "../assests/images/tree_black_white.jpg";
 
 export default function AboutUs() {
   return (
     <Grid
       container
       direction="row"
-      spacing={2}
+      spacing={5}
       justifyContent="center"
       p={3}
-      m={1}
+      pt={5}
+      mt={5}
+      mr={5}
     >
-      <Grid item>
-        <Typography variant="h2">Who are we?</Typography>
+      <Grid item xs={12} md={4}>
+        <Box component="img" sx={{ width: 1 }} alt="tree" src={tree} />
       </Grid>
-      <Grid item>
-        <Mission />
-      </Grid>
-      <Grid item>
-        <Vision />
+      <Grid
+        container
+        rowSpacing={6}
+        direction={"column"}
+        xs={12}
+        md={8}
+        alignItems="center"
+      >
+        <Grid item>
+          <Typography variant="h2">Who are we?</Typography>
+        </Grid>
+        <Grid item>
+          <Mission />
+        </Grid>
+        <Grid item>
+          <Vision />
+        </Grid>
       </Grid>
     </Grid>
   );

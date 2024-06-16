@@ -9,7 +9,7 @@ export default function Quality() {
       <Typography variant="h5">Quality and Craftsmanship</Typography>
       </Grid>
       <Grid item md={8}>
-        <Typography variant="body">
+        <Typography variant="body1">
           Meticulous attention to detail and collaboration with skilled experts
           result in technology that showcase the highest standards of quality
           and craftsmanship.

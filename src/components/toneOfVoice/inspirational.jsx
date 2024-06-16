@@ -9,7 +9,7 @@ export default function Inspirational() {
         <Typography variant="h5">Inspirational</Typography>
       </Grid>
       <Grid item md={8}>
-        <Typography variant="body">
+        <Typography variant="body1">
           We aim to inspire and ignite creativity through our tone, encouraging
           clients and stakeholders to envision possibilities and embrace
           innovation.

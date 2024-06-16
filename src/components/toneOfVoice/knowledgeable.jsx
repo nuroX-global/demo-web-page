@@ -9,7 +9,7 @@ export default function Knowledgeable() {
         <Typography variant="h5">Knowledgeable</Typography>
       </Grid>
       <Grid item md={8}>
-        <Typography variant="body">
+        <Typography variant="body1">
           We convey our expertise and deep understanding of technology
           principles and practices, establishing ourselves as trusted
           authorities in the industry.

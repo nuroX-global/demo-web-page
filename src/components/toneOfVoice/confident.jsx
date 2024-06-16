@@ -9,7 +9,7 @@ export default function Confident() {
         <Typography variant="h5">Confident</Typography>
       </Grid>
       <Grid item md={8}>
-        <Typography variant="body">
+        <Typography variant="body1">
           Our tone reflects a sense of assurance and expertise in our field,
           showcasing our confidence in delivering exceptional services.
         </Typography>

@@ -9,7 +9,7 @@ export default function Approachable() {
         <Typography variant="h5">Approachable</Typography>
       </Grid>
       <Grid item md={8}>
-        <Typography variant="body">
+        <Typography variant="body1">
           Our tone is warm, friendly, and inviting, fostering open communication
           and building strong relationships with clients and partners.
         </Typography>

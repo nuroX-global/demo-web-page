@@ -9,7 +9,7 @@ export default function Innovation() {
       <Typography variant="h5">Innovation & Creativity</Typography>
       </Grid>
       <Grid item md={8}>
-        <Typography variant="body">
+        <Typography variant="body1">
           We continuously push the boundaries of Tech solutions, delivering
           unique and inspiring spaces that challenge norms and captivate the
           imagination.

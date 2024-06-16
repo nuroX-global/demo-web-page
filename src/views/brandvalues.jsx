@@ -10,11 +10,25 @@ import glyphs from "../assests/images/glyphs.webp";
 
 export default function BrandValues() {
   return (
-    <Grid container direction="row" spacing={2} justifyContent="center" p={3} mr={5}>
+    <Grid
+      container
+      direction="row"
+      spacing={2}
+      justifyContent="center"
+      p={3}
+      mr={5}
+    >
       <Grid item xs={12} md={4}>
         <Box component="img" sx={{ width: 1 }} alt="glyphs" src={glyphs} />
       </Grid>
-      <Grid container rowSpacing={5} direction={"column"} xs={12} md={8} alignItems="center">
+      <Grid
+        container
+        rowSpacing={5}
+        direction={"column"}
+        xs={12}
+        md={8}
+        alignItems="center"
+      >
         <Grid item>
           <Typography variant="h2">Brand Values</Typography>
         </Grid>
