@@ -33,10 +33,10 @@ export default function AboutUs() {
           <Typography variant="h2">Who are we?</Typography>
         </Grid>
         <Grid item>
-          <Mission />
+          <Vision />
         </Grid>
         <Grid item>
-          <Vision />
+          <Mission />
         </Grid>
       </Grid>
     </Grid>

@@ -6,7 +6,7 @@ export default function Intro() {
   return (
     <Stack spacing={2} pl={2} ml={2}>
       <Typography variant="h4" fontSize={22}>
-        At NuroX, we stand at the vanguard of AI and technology, revolutionizing
+        At nuroX, we stand at the vanguard of AI and technology, revolutionizing
         data consciousness, asset, and information lifecycle management for
         enterprises, large organizations, and governments. As a premier entity,
         our commitment transcends generic analytics; we delve deep into asset
@@ -26,7 +26,7 @@ export default function Intro() {
         are efficient, advanced, and sustainable.
       </Typography>
       <Typography variant="h4" display="inline" fontSize={22}>
-        At NuroX, innovation, global excellence, and environmental stewardship
+        At nuroX, innovation, global excellence, and environmental stewardship
         are the pillars upon which we build our legacy, aiming to stand tall
         among the giants in the tech industry
       </Typography>

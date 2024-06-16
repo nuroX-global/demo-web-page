@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Link } from "react-router-dom";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -10,10 +11,10 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import Grid from "@mui/material/Grid";
-import whiteLogo from "../assests/images/logo_white.png";
+import WhiteLogo from "../../assests/images/whiteLogo.png";
+import AboutUs from "../../views/AboutUs";
 
 export default function AppNavBar() {
-  const pages = ["Home", "About Us"];
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
   const handleOpenNavMenu = (event) => {
@@ -28,7 +29,6 @@ export default function AppNavBar() {
     <AppBar position="static" sx={{ bgcolor: "#000" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          {/*<AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />*/}
           <Grid
             container
             direction="row"
@@ -41,7 +41,7 @@ export default function AppNavBar() {
                 component="img"
                 sx={{ height: 54 }}
                 alt="Logo"
-                src={whiteLogo}
+                src={WhiteLogo}
               />
             </Grid>
             <Grid item xs={2}>
@@ -75,11 +75,16 @@ export default function AppNavBar() {
                     display: { xs: "block", md: "none" },
                   }}
                 >
-                  {pages.map((page) => (
-                    <MenuItem key={page} onClick={handleCloseNavMenu}>
-                      <Typography textAlign="center">{page}</Typography>
-                    </MenuItem>
-                  ))}
+                  <MenuItem key="Home" onClick={handleCloseNavMenu}>
+                    <Link to={"Home"}>
+                        <Typography textAlign="center">Home</Typography>
+                    </Link>
+                  </MenuItem>
+                  <MenuItem key="About Us" onClick={handleCloseNavMenu}>
+                    <Link to={"AboutUs"}>
+                      <Typography textAlign="center">About Us</Typography>
+                    </Link>
+                  </MenuItem>
                 </Menu>
               </Box>
             </Grid>
@@ -92,18 +97,26 @@ export default function AppNavBar() {
             spacing={2}
           >
             <Grid item>
-            <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-              
-              {pages.map((page) => (
-                <Button
-                  key={page}
-                  onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: "white", display: "block" }}
-                >
-                  {page}
-                </Button>
-              ))}
-            </Box>
+              <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+                <Link to={"Home"}>
+                  <Button
+                    key="Home"
+                    onClick={handleCloseNavMenu}
+                    sx={{ my: 2, color: "white", display: "block" }}
+                  >
+                    Home
+                  </Button>
+                </Link>
+                <Link to={"AboutUs"}>
+                  <Button
+                    key="AboutUs"
+                    onClick={handleCloseNavMenu}
+                    sx={{ my: 2, color: "white", display: "block" }}
+                  >
+                    About Us
+                  </Button>
+                </Link>
+              </Box>
             </Grid>
           </Grid>
         </Toolbar>

@@ -16,7 +16,7 @@ export default function Welcome() {
     >
       <Grid item>
         <Typography variant="h1" align="center">
-          Welcome To NuroX!
+          Meet nuroX!
         </Typography>
       </Grid>
       <Grid item>
